@@ -202,6 +202,14 @@ body {
 	font-weight: bold;
 }
 
+.hover-text-green a{
+	color: #218f82;
+	border-radius: 5px;
+	border:2px solid #23b7a4;
+}
+
+
+
 .submit {
 	background: url(img/iconsearch.png) no-repeat 50% 50%;
 	width: 15px;
@@ -222,10 +230,10 @@ body {
 	font-weight: 600;
 }
 
-.nav-menu > li:last-child {
-	padding-right: 0px;
-}
 
+.nav-menu > li:first-child {
+	color: #218f82;
+}
 .nav-menu > li:hover {
 	border: 2px solid rgb(164, 174, 173);
 	border-radius: 5px;

@@ -208,7 +208,7 @@ body {
 	display: flex;
 }
 
-.nav-menu li {
+.nav-menu li a {
 	color: #a4aead;
 	font-family: "Open Sans - Semibold";
 	font-size: 14px;
@@ -616,6 +616,7 @@ body {
 .button-top5:hover {
 	background: #23b7a4;
 	color: #fff;
+	border: 2px solid #23b7a4;
 }
 
 .button-top5 {
@@ -829,6 +830,7 @@ body {
 .button-cont:hover {
 	background: #23b7a4;
 	color: #fff;
+	border: 2px solid #23b7a4;
 }
 
 .button-cont {

@@ -111,6 +111,7 @@ body {
 }
 
 .menu {
+
 }
 
 @media (min-width: 768px) {
@@ -173,11 +174,20 @@ body {
 	}
 }
 
-@media (min-width: 1200px) {
-	 .container {
-	max-width: 1170px;
+@media (min-width: 1200px;) {
+	.nav-menu > li {
+		margin: 0 10px;
+	}
 }
 
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+	.nav-menu > li {
+		margin: 0 10px;
+	}
+}
 @media (max) @media (max-width: 767px;) {
 }
 
@@ -202,13 +212,11 @@ body {
 	font-weight: bold;
 }
 
-.hover-text-green a{
+.hover-text-green a {
 	color: #218f82;
 	border-radius: 5px;
-	border:2px solid #23b7a4;
+	border: 2px solid #23b7a4;
 }
-
-
 
 .submit {
 	background: url(img/iconsearch.png) no-repeat 50% 50%;
@@ -230,6 +238,10 @@ body {
 	font-weight: 600;
 }
 
+.nav-menu li {
+	border: 2px solid rgba(35, 183, 163, 0);
+	margin: 0 5px;
+}
 
 .nav-menu > li:first-child {
 	color: #218f82;

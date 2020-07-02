@@ -211,10 +211,14 @@ body {
 	font-weight: bold;
 }
 
-.hover-text-green a {
+.hover-text-green {
 	color: #218f82;
 	border-radius: 5px;
 	border: 2px solid #23b7a4;
+}
+
+#green-text {
+	color: #23b7a4;
 }
 
 .submit {

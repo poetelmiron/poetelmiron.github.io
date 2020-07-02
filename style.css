@@ -111,7 +111,6 @@ body {
 }
 
 .menu {
-
 }
 
 @media (min-width: 768px) {
@@ -236,10 +235,10 @@ body {
 	text-transform: uppercase;
 	color: rgb(164, 174, 173);
 	font-weight: 600;
+	font-size: 15px;
 }
 
 .nav-menu li {
-	border: 2px solid rgba(35, 183, 163, 0);
 	margin: 0 5px;
 }
 
@@ -830,6 +829,8 @@ body {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
+	display: flex;
+	align-items: center;
 }
 
 .section-row3 {
@@ -881,4 +882,52 @@ body {
 
 .together1 {
 	display: flex;
+}
+
+.icon-footer {
+	display: flex;
+	width: 300px;
+	height: 50px;
+	justify-content: space-between;
+}
+
+.twitter {
+	background: url(img/twitter.small.png) no-repeat 50% 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.facebook {
+	background: url(img/facebook.small.png) no-repeat 50% 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.skype {
+	background: url(img/skype.small.png) no-repeat 50% 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.be {
+	background: url(img/be.small.png) no-repeat 50% 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.in {
+	background: url(img/in.small.png) no-repeat 50% 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.footer-box {
+	width: 1139px;
+	display: flex;
+	justify-content: space-between;
 }
